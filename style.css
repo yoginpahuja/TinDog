@@ -1,0 +1,144 @@
+#title{
+    background-color: #f82343;
+}
+.Main-line{
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Amatic SC', cursive;
+    font-size:6rem;
+    line-height: 1.5;
+    font-weight:bolder;
+    margin-bottom: 10px;
+    color: white;
+}
+.navbar-brand{
+    margin-left:5px;
+    font-family: ubuntu;
+}
+.nav-link:hover{
+    color:white;
+}
+nav{
+    background-color: black;
+}
+.container-fluid{
+    padding:1% 18%;
+}
+.btn
+{
+    margin-right:30px;
+    
+}
+.paw{
+    position:relative;
+    top:20px;
+    width: 20%;
+}
+.iphone{
+    position:relative;
+    left:150px;
+    transform: rotate(20deg);
+    height: 95%;
+    padding-top: 50px;
+    top:100px;
+}
+.nav-item{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.download-button{
+    margin-left: 10px; 
+}
+.fa-circle-check,.fa-bullseye,.fa-heart{
+   color: #ef8172;
+   padding-bottom: 10px;
+}
+.fa-circle-check:hover,.fa-bullseye:hover,.fa-heart:hover{
+    color: red;
+}
+.mid-container{
+    padding: 7% 18%;
+    text-align: center;
+    font-family: 'Montserrat-black',sans-serif;
+    font-weight: bold;
+}
+.text{
+    color:rgba(128, 128, 128, 0.59);
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+h2{
+    font-size: 3.5rem;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+.dog{
+    border-radius: 50%;
+    margin-top: 2%;
+    position: relative;
+    left: 5%;
+    width: 20%;
+}
+em{
+   position: relative;
+   left:8%;
+}
+#press{
+    /* background-color: #ef8172; */
+    padding: 2% 10%;
+}
+.carousel-item{
+    padding:7% 18%;
+}
+#features{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+.top-container{
+    height: 800px;
+    height: 100%;
+}
+#pricing{
+    text-align: center;
+   
+}
+.con{
+    padding: 3%;
+}
+
+#cta{
+    background-color: #f82343;
+    text-align: center;
+    padding: 6% 17%;
+}
+.sm{
+    color:white;
+    font-family: 'Amatic SC', cursive;
+    font-size:4rem;
+    line-height: 1.5;
+    font-weight:bolder;
+}
+#footer{
+    text-align: center;
+}
+.ic{
+    padding: 0.3%;
+    margin-top: 1%;
+}
+@media (max-width:992px){
+    .iphone{
+        transform: none;
+        position: static;
+        
+    }
+
+
+}
